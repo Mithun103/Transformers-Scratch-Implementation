@@ -65,8 +65,8 @@ python model.py
 
 ### 📉 Training Logs
 ```bash
-step 0: train loss 2.9876, val loss 2.9911
-step 500: train loss 1.9483, val loss 1.9732
+![image](https://github.com/user-attachments/assets/1468999a-6d24-47ee-bef5-90ee3f6dd40b)
+
 ...
 ```
 
