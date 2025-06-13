@@ -68,8 +68,18 @@ python model.py
 Training loop runs for 5000 steps with periodic loss logging:
 
 ```bash
-step 0: train loss 2.9876, val loss 2.9911
-step 500: train loss 1.9483, val loss 1.9732
+10.788929 M parameters
+step 0: train loss 4.2227, val loss 4.2305
+step 500: train loss 1.7550, val loss 1.9113
+step 1000: train loss 1.3944, val loss 1.6093
+step 1500: train loss 1.2682, val loss 1.5332
+step 2000: train loss 1.1863, val loss 1.5096
+step 2500: train loss 1.1284, val loss 1.4972
+step 3000: train loss 1.0708, val loss 1.5016
+step 3500: train loss 1.0163, val loss 1.5174
+step 4000: train loss 0.9638, val loss 1.5236
+step 4500: train loss 0.9131, val loss 1.5555
+step 4999: train loss 0.8551, val loss 1.5667
 ...
 ```
 
@@ -80,7 +90,24 @@ step 500: train loss 1.9483, val loss 1.9732
 After training completes, the model will generate 500 new characters:
 
 ```bash
-And the king said, "Let us go forth upon the moor..."
+Her gyouthful cheeks a little flower,
+For thy law agozing promises: shall I'll tutor
+The ohergeous pluck of on the fust, I move
+A man that have heard him, and as he dies,
+As we are hungry as the people's vice
+As instrumes currently.
+ Canstillow!
+
+GLOUCESTER:
+Belike not me; at what I should be?
+
+LADY ANNE:
+...
+By my much open in twis, but in my secons.
+First Kathard: I will be satisfied,
+Who, God dead, fortunes, I love myself;
+And I could be for dun
+
 ```
 
 The model uses greedy sampling with multinomial selection to generate text token-by-token.
