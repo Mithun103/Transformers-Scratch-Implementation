@@ -63,8 +63,7 @@ Run the script:
 python model.py
 ```
 
-Training loop runs for 5000 steps with periodic loss logging:
-
+### 📉 Training Logs
 ```bash
 step 0: train loss 2.9876, val loss 2.9911
 step 500: train loss 1.9483, val loss 1.9732
@@ -73,12 +72,13 @@ step 500: train loss 1.9483, val loss 1.9732
 
 ---
 
-### Step 3: Generate Text
+### Step 3: Generated Text
 
 After training completes, the model will generate 500 new characters:
 
 ```bash
-And the king said, "Let us go forth upon the moor..."
+![image](https://github.com/user-attachments/assets/4529dcaf-7886-426f-9623-cb10713b73a6)
+
 ```
 
 The model uses greedy sampling with multinomial selection to generate text token-by-token.
