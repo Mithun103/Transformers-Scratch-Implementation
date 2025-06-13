@@ -25,12 +25,10 @@ Given a training corpus (`input.txt`), the model learns the statistical patterns
 
 ## 📁 Files
 
-```bash
-.
+
 ├── input.txt          # Training text file
 ├── model.py           # Full model training and inference code
 ├── README.md          # This file
-```
 
 ---
 
