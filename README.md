@@ -1,4 +1,6 @@
-# Transformers-Scratch-Implementation
+
+# Transformers-Scratch-Implementation(Pytorch)
+
 This is a character-level transformer language model implemented in PyTorch. It reads a text corpus and learns to generate text by predicting the next character in a sequence using a GPT-style transformer architecture.
 
 ---
@@ -25,10 +27,12 @@ Given a training corpus (`input.txt`), the model learns the statistical patterns
 
 ## 📁 Files
 
-
+```bash
+.
 ├── input.txt          # Training text file
 ├── model.py           # Full model training and inference code
 ├── README.md          # This file
+```
 
 ---
 
@@ -61,22 +65,22 @@ Run the script:
 python model.py
 ```
 
-### 📉 Training Logs
-```bash
-![image](https://github.com/user-attachments/assets/1468999a-6d24-47ee-bef5-90ee3f6dd40b)
+Training loop runs for 5000 steps with periodic loss logging:
 
+```bash
+step 0: train loss 2.9876, val loss 2.9911
+step 500: train loss 1.9483, val loss 1.9732
 ...
 ```
 
 ---
 
-### Step 3: Generated Text
+### Step 3: Generate Text
 
 After training completes, the model will generate 500 new characters:
 
 ```bash
-![image](https://github.com/user-attachments/assets/4529dcaf-7886-426f-9623-cb10713b73a6)
-
+And the king said, "Let us go forth upon the moor..."
 ```
 
 The model uses greedy sampling with multinomial selection to generate text token-by-token.
