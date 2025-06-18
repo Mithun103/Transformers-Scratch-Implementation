@@ -30,7 +30,7 @@ Given a training corpus (`input.txt`), the model learns the statistical patterns
 ```bash
 .
 ├── input.txt          # Training text file
-├── model.py           # Full model training and inference code
+├── gpt.ipynb          # Full model training and inference code
 ├── README.md          # This file
 ```
 
@@ -62,7 +62,7 @@ Place your text file as `input.txt` in the same directory. It will be used for t
 Run the script:
 
 ```bash
-python model.py
+python gpt.py
 ```
 
 Training loop runs for 5000 steps with periodic loss logging:
